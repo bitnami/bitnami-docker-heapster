@@ -12,7 +12,7 @@ LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 COPY --from=buildenv /opt/bitnami/heapster /opt/bitnami/heapster
 ENV BITNAMI_APP_NAME="heapster" \
-    BITNAMI_IMAGE_VERSION="1.5.2-r4" \
+    BITNAMI_IMAGE_VERSION="1.5.2-r5" \
     PATH="/opt/bitnami/heapster/bin:$PATH"
 
 RUN install_packages ca-certificates
