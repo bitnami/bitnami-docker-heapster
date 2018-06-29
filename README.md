@@ -20,7 +20,7 @@ Deploy Heapster on your [Kubernetes cluster](https://github.com/kubernetes/heaps
 
 # Supported tags and respective `Dockerfile` links
 
-* [`1`, `1.5.3-r35`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.3-r35/1/Dockerfile)
+* [`1`, `1.5.3-r36`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.3-r36/1/Dockerfile)
 * [`1-ol-7`, `1.5.3-ol-7-r2` (1/ol-7/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.3-ol-7-r2/1/ol-7/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/heapster GitHub repo](https://github.com/bitnami/bitnami-docker-heapster).
