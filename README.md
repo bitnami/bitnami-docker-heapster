@@ -23,7 +23,7 @@ Deploy Heapster on your [Kubernetes cluster](https://github.com/kubernetes/heaps
 > NOTE: Debian 8 images have been deprecated in favor of Debian 9 images. Bitnami will not longer publish new Docker images based on Debian 8.
 
 
-* [`1-ol-7`, `1.5.4-ol-7-r5` (1/ol-7/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-ol-7-r5/1/ol-7/Dockerfile)
+* [`1-ol-7`, `1.5.4-ol-7-r6` (1/ol-7/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-ol-7-r6/1/ol-7/Dockerfile)
 * [`1-debian-9`, `1.5.4-debian-9-r7`, `1`, `1.5.4`, `1.5.4-r7`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r7/1/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/heapster GitHub repo](https://github.com/bitnami/bitnami-docker-heapster).
