@@ -25,8 +25,8 @@ Deploy Heapster on your [Kubernetes cluster](https://github.com/kubernetes/heaps
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-ol-7`, `1.5.4-ol-7-r10` (1/ol-7/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-ol-7-r10/1/ol-7/Dockerfile)
-* [`1-debian-9`, `1.5.4-debian-9-r13`, `1`, `1.5.4`, `1.5.4-r13`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r13/1/Dockerfile)
+* [`1-ol-7`, `1.5.4-ol-7-r11` (1/ol-7/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-ol-7-r11/1/ol-7/Dockerfile)
+* [`1-debian-9`, `1.5.4-debian-9-r14`, `1`, `1.5.4`, `1.5.4-r14`, `latest` (1/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r14/1/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/heapster GitHub repo](https://github.com/bitnami/bitnami-docker-heapster).
 
