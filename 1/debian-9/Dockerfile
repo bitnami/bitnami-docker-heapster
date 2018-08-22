@@ -13,7 +13,7 @@ LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 COPY --from=buildenv /opt/bitnami/heapster /opt/bitnami/heapster
 ENV BITNAMI_APP_NAME="heapster" \
-    BITNAMI_IMAGE_VERSION="1.5.4-debian-9-r22" \
+    BITNAMI_IMAGE_VERSION="1.5.4-debian-9-r23" \
     PATH="/opt/bitnami/heapster/bin:$PATH"
 
 RUN install_packages ca-certificates
@@ -22,4 +22,4 @@ EXPOSE 8082
 
 WORKDIR /opt/bitnami/heapster
 USER 1001
-ENTRYPOINT ["/opt/bitnami/heapster/bin/heapster"]
+ENTRYPOINT [ "/opt/bitnami/heapster/bin/heapster" ]
