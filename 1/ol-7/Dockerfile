@@ -1,4 +1,4 @@
-FROM bitnami/oraclelinux-extras:7-r150 as buildenv
+FROM bitnami/oraclelinux-extras:7-r151 as buildenv
 
 RUN install_packages ca-certificates wget
 RUN wget -nc -P /tmp/bitnami/pkg/cache/ https://downloads.bitnami.com/files/stacksmith/heapster-1.5.4-1-linux-x86_64-ol-7.tar.gz && \
@@ -8,12 +8,12 @@ RUN wget -nc -P /tmp/bitnami/pkg/cache/ https://downloads.bitnami.com/files/stac
 
 ##################
 
-FROM bitnami/oraclelinux-extras:7-r150
+FROM bitnami/oraclelinux-extras:7-r151
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 COPY --from=buildenv /opt/bitnami/heapster /opt/bitnami/heapster
 ENV BITNAMI_APP_NAME="heapster" \
-    BITNAMI_IMAGE_VERSION="1.5.4-ol-7-r85" \
+    BITNAMI_IMAGE_VERSION="1.5.4-ol-7-r86" \
     PATH="/opt/bitnami/heapster/bin:$PATH"
 
 RUN install_packages ca-certificates
