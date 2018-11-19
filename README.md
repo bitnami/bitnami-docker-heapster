@@ -10,6 +10,21 @@ Heapster is an open source, feature rich metrics dashboard and graph editor for 
 
 Deploy Heapster on your [Kubernetes cluster](https://github.com/kubernetes/heapster/tree/master/docs).
 
+# How to deploy Heapster in Kubernetes?
+
+> NOTE: If you are pulling from a private containers registry, replace the image name with the full URL to the docker image. E.g.
+> 
+> ```
+> --image='your-registry/heapster:your-version'
+> ```
+
+
+To run heapster run the following comand:
+
+> kubectl run heapster --image=bitnami/heapster -- --source=kubernetes
+
+You will need to set some configuration in your kubernetes cluster. Read more about this configuration steps in the [heapster's source configuration documentation](https://github.com/kubernetes/heapster/blob/master/docs/source-configuration.md).
+
 # Why use Bitnami Images?
 
 * Bitnami closely tracks upstream source changes and promptly publishes new versions of this image using our automated systems.
