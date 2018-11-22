@@ -49,7 +49,7 @@ Learn more about the Bitnami tagging policy and the difference between rolling t
 
 
 * [`1-ol-7`, `1.5.4-ol-7-r106` (1/ol-7/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-ol-7-r106/1/ol-7/Dockerfile)
-* [`1-debian-9`, `1.5.4-debian-9-r103`, `1`, `1.5.4`, `1.5.4-r103`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r103/1/debian-9/Dockerfile)
+* [`1-debian-9`, `1.5.4-debian-9-r104`, `1`, `1.5.4`, `1.5.4-r104`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r104/1/debian-9/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/heapster GitHub repo](https://github.com/bitnami/bitnami-docker-heapster).
 
