@@ -45,7 +45,7 @@ Non-root container images add an extra layer of security and are generally recom
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/containers/how-to/understand-rolling-tags-containers/).
 
 
-* [`1-debian-9`, `1.5.4-debian-9-r167`, `1`, `1.5.4`, `1.5.4-r167`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r167/1/debian-9/Dockerfile)
+* [`1-debian-9`, `1.5.4-debian-9-r168`, `1`, `1.5.4`, `1.5.4-r168`, `latest` (1/debian-9/Dockerfile)](https://github.com/bitnami/bitnami-docker-heapster/blob/1.5.4-debian-9-r168/1/debian-9/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/heapster GitHub repo](https://github.com/bitnami/bitnami-docker-heapster).
 
