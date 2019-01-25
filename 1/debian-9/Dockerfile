@@ -9,7 +9,7 @@ RUN wget -nc -P /tmp/bitnami/pkg/cache/ https://downloads.bitnami.com/files/stac
     rm -rf /tmp/bitnami/pkg/cache/heapster-1.5.4-20-linux-amd64-debian-9.tar.gz
 
 ENV BITNAMI_APP_NAME="heapster" \
-    BITNAMI_IMAGE_VERSION="1.5.4-debian-9-r173" \
+    BITNAMI_IMAGE_VERSION="1.5.4-debian-9-r174" \
     PATH="/opt/bitnami/heapster/bin:$PATH"
 
 EXPOSE 8082
